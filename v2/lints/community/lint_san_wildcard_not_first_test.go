@@ -17,8 +17,8 @@ package community
 import (
 	"testing"
 
-	"github.com/zmap/zlint/v2/lint"
-	"github.com/zmap/zlint/v2/test"
+	"github.com/teamnsrg/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2/test"
 )
 
 func TestBrSANWildcardFirst(t *testing.T) {

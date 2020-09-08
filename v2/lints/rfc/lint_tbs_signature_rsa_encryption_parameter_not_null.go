@@ -23,8 +23,8 @@ import (
 	"fmt"
 
 	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/v2/lint"
-	"github.com/zmap/zlint/v2/util"
+	"github.com/teamnsrg/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2/util"
 	"golang.org/x/crypto/cryptobyte"
 	cryptobyte_asn1 "golang.org/x/crypto/cryptobyte/asn1"
 )

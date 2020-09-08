@@ -17,8 +17,8 @@ package etsi
 import (
 	"testing"
 
-	"github.com/zmap/zlint/v2/lint"
-	"github.com/zmap/zlint/v2/test"
+	"github.com/teamnsrg/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2/test"
 )
 
 func TestEtsiQcType(t *testing.T) {

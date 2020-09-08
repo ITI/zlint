@@ -7,8 +7,8 @@ import (
 	"unicode/utf8"
 	"sort"
 
-	"github.com/zmap/zlint/v2"
-	"github.com/zmap/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2"
+	"github.com/teamnsrg/zlint/v2/lint"
 
 )
 

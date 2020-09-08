@@ -19,8 +19,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/zmap/zlint/v2/lint"
-	"github.com/zmap/zlint/v2/test"
+	"github.com/teamnsrg/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2/test"
 )
 
 func TestDSACorrectOrderSubgroup(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 	"time"
 
 	"github.com/zmap/zcrypto/x509"
-	"github.com/zmap/zlint/v2/lint"
-	"github.com/zmap/zlint/v2/util"
+	"github.com/teamnsrg/zlint/v2/lint"
+	"github.com/teamnsrg/zlint/v2/util"
 )
 
 type serverCertValidityTooLong struct{}
@@ -71,7 +71,7 @@ func init() {
 		// TODO(@cpu): The Source should be `lint.ApplePolicy` or something similar.
 		// The "CT" bit is too specific. Unfortunately since the constant is
 		// exported by the `util` package we can't change it without bumping the
-		// major version. See https://github.com/zmap/zlint/issues/418
+		// major version. See https://github.com/teamnsrg/zlint/issues/418
 		Source:        lint.AppleCTPolicy,
 		EffectiveDate: util.AppleReducedLifetimeDate,
 		Lint:          &serverCertValidityTooLong{},
